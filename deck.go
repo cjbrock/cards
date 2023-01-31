@@ -18,6 +18,7 @@ func newDeck() deck {
 }
 
 func (d deck) printCards() {
+
 	for i, card := range d {
 		fmt.Println(i, card)
 	}
