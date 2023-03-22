@@ -2,5 +2,5 @@ package main
 
 func main() {
 	cards := newDeck()
-	cards.printCards()
+	cards.saveToFile("new_cards")
 }
